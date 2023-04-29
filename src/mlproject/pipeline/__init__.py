@@ -1,0 +1,1 @@
+from mlproject.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
