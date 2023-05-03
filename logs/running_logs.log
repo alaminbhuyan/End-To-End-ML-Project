@@ -1,0 +1,40 @@
+[2023-04-27 22:27:45,399: INFO: test: Welcome to our custom log]
+[2023-04-29 19:53:41,292: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-04-29 19:53:41,336: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-04-29 19:53:41,342: INFO: common: created directory at: artifacts]
+[2023-04-29 19:53:41,346: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-04-29 21:47:25,086: INFO: main: >>>> Stage Data Ingestion Stage Started <<<<]
+[2023-04-29 21:47:25,091: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-04-29 21:47:25,096: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-04-29 21:47:25,097: INFO: common: created directory at: artifacts]
+[2023-04-29 21:47:25,099: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-04-29 21:47:25,100: INFO: data_ingesition: Trying to download file...]
+[2023-04-29 21:47:25,100: INFO: data_ingesition: Download Started...]
+[2023-04-29 21:47:26,168: INFO: data_ingesition: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 9081
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "5e058d9253a235412c0d1251dbd00600eb83fe917176ca89a2216699098e8507"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E81C:4933:3D7DE0:4985E9:644D3C0D
+Accept-Ranges: bytes
+Date: Sat, 29 Apr 2023 15:47:26 GMT
+Via: 1.1 varnish
+X-Served-By: cache-qpg1250-QPG
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1682783246.711502,VS0,VE300
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+X-Fastly-Request-ID: eebeb5bc274ced5d498e6f5b73f87097cbf7f261
+Expires: Sat, 29 Apr 2023 15:52:26 GMT
+Source-Age: 0
+
+]
+[2023-04-29 21:47:26,172: INFO: data_ingesition: Unziping Files...]
+[2023-04-29 21:47:26,213: INFO: main: >>>> Stage Data Ingestion Stage Completed <<<<]
